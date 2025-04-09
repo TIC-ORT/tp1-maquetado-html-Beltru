@@ -1,18 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 body{
 background-color: rgb(82, 82, 82);
+height: 100vh;
+  overflow: hidden;
+  
 }
 
 .top{
 
 background-color:white ;
 height: 30vh;
-width: calc(100vw - 20px);
-margin: 10px;
+width: calc(100vw - 40px);
+margin: 20px;
 justify-content: center;
 }
 
@@ -20,12 +25,63 @@ justify-content: center;
     background-color: lightblue;
     width: 15vw;
     height: 30vh;
-    
+    flex-direction: column; 
+    display: flex; /* Para centrar el cuadrado horizontalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+align-items: center; 
+}
+.cuadrado .lineaA{
+    background-color:white ;
+    height: 8%;
+    width: 45%;
+    margin-bottom: 8%;
+}
+.cuadrado .lineaB{
+    background-color:white ;
+    height: 8%;
+    width: 45%;
+    margin-bottom: 8%;
+
+}
+.cuadrado .lineaC{
+    background-color:gray ;
+    height: 8%;
+    width: 25%;
+
 }
 
-.middle{
-    background-color: brown;
-    width: 98.5vw;
-    height: 15vh;
-    margin: 10px;
+.middle {
+  display: flex;
+  gap: 1rem;
+  margin: 20px;
 }
+  
+  .middle .der {
+    flex: 1;
+    background-color: rgb(211, 209, 193);
+    width: 60vw;
+    height: 60vh;
+  }
+  .der .arriba{
+    background-color: rgb(176, 171, 166);
+    width: 100%;
+    height: 15%;
+  }
+  
+  .middle .izq{
+    flex: 1;
+    background-color: rgb(226, 225, 213);
+    width: 60vw;
+    height: 60vh;
+  }
+  .izq .arriba{
+    background-color: rgb(176, 171, 166);
+    width: 100%;
+    height: 15%;
+  }
+  .bottom .footer{
+background-color: antiquewhite;
+  }
+  
+
+
