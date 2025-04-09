@@ -23,8 +23,8 @@ justify-content: center;
 
 .cuadrado{
     background-color: lightblue;
-    width: 15vw;
-    height: 30vh;
+    width: 14%;
+    height: 100%;
     flex-direction: column; 
     display: flex; /* Para centrar el cuadrado horizontalmente */
     justify-content: center; /* Centra el contenido horizontalmente */
@@ -33,20 +33,20 @@ align-items: center;
 .cuadrado .lineaA{
     background-color:white ;
     height: 8%;
-    width: 45%;
+    width: 50%;
     margin-bottom: 8%;
 }
 .cuadrado .lineaB{
     background-color:white ;
     height: 8%;
-    width: 45%;
+    width: 50%;
     margin-bottom: 8%;
 
 }
 .cuadrado .lineaC{
     background-color:gray ;
     height: 8%;
-    width: 25%;
+    width: 30%;
 
 }
 
