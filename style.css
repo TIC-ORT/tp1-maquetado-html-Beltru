@@ -17,7 +17,6 @@ width: calc(100vw - 57px);
 margin: 20px;
 justify-content: center;
 }
-
 .cuadrado{
     background-color: lightblue;
     width: 14%;
@@ -27,6 +26,95 @@ justify-content: center;
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center; 
 }
+.contenedor-top {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 2rem;
+}
+
+.contenido-derecho {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flechas-y-lineas {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flecha {
+  font-size: 2rem;
+  color: gray;
+  cursor: default; /* ← Esto cambia el cursor a normal (flecha) */
+ margin: 2px;
+}
+
+.lineas-superiores {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.linea-gris1 {
+  background-color: #555;
+  height: 8px;
+  width: 50%;
+}
+
+.linea-gris2,
+.linea-gris3,
+.linea-gris4 {
+  background-color: lightgray;
+  height: 4px;
+  width: 100%;
+}
+.linea-gris5{
+  background-color: lightgray;
+  height: 4px;
+  width: 60%;
+}
+
+.cuadrados-celestes {
+  display: flex;
+  gap: 1rem;
+justify-content: center;  
+}
+
+.celeste-con-linea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.celeste {
+  background-color: lightblue;
+  width: 3vw;
+  height: 3vw;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.linea-bajo {
+  width: 60px;
+  height: 2px;
+  background-color: rgb(184, 183, 183);
+}
+.linea-bajo1 {
+  width: 35px;
+  height: 2px;
+  background-color: rgb(184, 183, 183);
+}
+
+
+
 .cuadrado .lineaA{
     background-color:white ;
     height: 8%;
