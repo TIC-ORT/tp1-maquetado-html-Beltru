@@ -157,7 +157,10 @@ justify-content: center;
     width: 60vw;
     height: 60vh;
   }
-
+.izq{
+  display: flex;
+  justify-content: center;
+}
   .izq .arriba{
     background-color: rgb(206, 199, 192);
     width: 100%;
