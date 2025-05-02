@@ -159,13 +159,30 @@ justify-content: center;
   }
 .izq{
   display: flex;
-  justify-content: center;
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center;    /* Centra horizontalmente los elementos */
+    justify-content: flex-start; /* Asegura que los elementos estén al inicio verticalmente */
+    height: 100%;           /* Asegúrate de que el contenedor tenga altura */
 }
   .izq .arriba{
     background-color: rgb(206, 199, 192);
     width: 100%;
     height: 15%;
+    margin-bottom: 30px;
   }
+  .izq img {
+    display: block;   
+    justify-content: center;
+    margin-bottom: 1px;
+}
+.izq
+.linea-gris21,
+.linea-gris31,
+.linea-gris41 {
+  background-color: grey;
+  height: 2px;
+  width: 50%;
+}
 
   .bottom .footer{
 background-color: rgb(226, 225, 213);
